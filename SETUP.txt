@@ -1,0 +1,32 @@
+========================================
+   RENTEASE - SETUP INSTRUCTIONS
+========================================
+
+1. SETUP DATABASE
+   mysql -u root -p < database-setup.sql
+
+2. CONFIGURE .ENV
+   Edit .env file with your MySQL password
+
+3. INSTALL DEPENDENCIES
+   npm install
+
+4. START SERVER
+   npm start
+
+5. OPEN BROWSER
+   http://localhost:3001
+
+========================================
+FEATURES
+========================================
+
+✓ Equipment rental management
+✓ Stock tracking (10 units per item)
+✓ Customer management
+✓ Admin & Customer dashboards
+✓ Automatic late fee calculation
+✓ Profile editing
+✓ Real-time stock updates
+
+========================================
